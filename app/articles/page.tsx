@@ -30,7 +30,7 @@ export default async function Articles() {
       <Navigation navigation={navigation} />
       <div className="mx-auto max-w-7xl space-y-8 px-6 pt-16 md:space-y-16 md:pt-24 lg:px-8 lg:pt-32">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="font-foldit text-8xl tracking-tight text-zinc-100">
+          <h2 className="font-display text-8xl tracking-tight text-zinc-100">
             Articles
           </h2>
           <p className="mt-4 font-semibold text-zinc-400">

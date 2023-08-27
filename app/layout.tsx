@@ -2,7 +2,7 @@ import './globals.css'
 
 import { type ReactNode } from 'react'
 import { type Metadata } from 'next'
-import { Foldit, Nunito_Sans } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 import LocalFont from 'next/font/local'
 import Script from 'next/script'
 import { cn } from '@/lib/utils'
@@ -52,12 +52,6 @@ export const metadata: Metadata = {
 }
 
 const nunitoSans = Nunito_Sans({ subsets: ['latin'], display: 'swap' })
-const foldit = Foldit({
-  subsets: ['latin'],
-  style: ['normal'],
-  display: 'swap',
-  variable: '--font-foldit',
-})
 
 const calSans = LocalFont({
   src: '../public/fonts/CalSans-SemiBold.ttf',
@@ -72,7 +66,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={cn(
         nunitoSans.className,
         calSans.variable,
-        foldit.variable,
         'dark'
       )}
     >

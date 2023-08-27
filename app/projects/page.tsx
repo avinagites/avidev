@@ -50,7 +50,7 @@ export default async function Projects() {
       <div className="mx-auto max-w-7xl px-6 pt-16 md:space-y-16 md:pt-24 lg:px-8 lg:pt-32">
         <section className="space-y-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h1 className="font-foldit text-8xl tracking-tight text-zinc-100">
+            <h1 className="font-display text-8xl tracking-tight text-zinc-100">
               {page.title}
             </h1>
             <div className="mt-4 text-lg font-semibold text-zinc-400">

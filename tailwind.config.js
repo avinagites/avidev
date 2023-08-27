@@ -53,7 +53,6 @@ module.exports = {
       },
       fontFamily: {
         display: ['var(--font-calsans)'],
-        foldit: ['var(--font-foldit)'],
       },
       backgroundImage: {
         'gradient-radial':
